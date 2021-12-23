@@ -1,6 +1,6 @@
-## Automation with RobotFrameWork
-In this tests I have used robotframework for testing valid and invalid login.
-I can run the tests on different browsers, the default is edge because it's the fastest for me.
+## Web Automation with Python and RobotFrameWork
+In this tests I have used RobotFramework for testing valid and invalid login.
+I can run the tests on different browsers, the default is edge.
 The framework is based on page objects.
 1. customLibraries - here I can create custom libraries which can be used in the tests
 2. pageObjects - directory with page objects, one common page with variables and keywords which are commonly used. Also, there is one page for each tested webpage.
