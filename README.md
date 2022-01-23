@@ -1,13 +1,11 @@
-## Web Automation with Python and RobotFrameWork
-In this tests I have used RobotFramework for testing valid and invalid login.
-I can run the tests on different browsers, the default is edge.
-The framework is based on page objects.
-1. customLibraries - here I can create custom libraries which can be used in the tests
-2. pageObjects - directory with page objects, one common page with variables and keywords which are commonly used. Also, there is one page for each tested webpage.
-3. reports - in this directory are the reports which are generated after each test.
-4. screenshots - directory for screenshots in case of test failure.
-5. testData - directory with data for the tests, this time I have used csv file.
-6.test - directory with the tests.
+## Description
+Web Automation test based on Selenium python with RobotFrameWork. <br>
+- The Test uses the page object framework.
+- The data is being used from resources and a CSV file.
+- By default, the test runs on edge, but it can be changed through the command line.
+- Reports and log file are automatically generated. (By default, they are generated in the root directory, to generated them in the reports directory ```--outputdir``` command is used)
+- If test fails, screenshot is being saved in the reports folder. (With the ```--outputdir``` command)
+
 
 # _My Work_
 
